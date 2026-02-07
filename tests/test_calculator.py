@@ -23,6 +23,7 @@ def test_divide_by_zero():
     with pytest.raises(ValueError):
         divide(5, 0)
 
+<<<<<<< HEAD
 def test_modulo():
     assert modulo(10, 3) == 1
     assert modulo(7, 2) == 1
@@ -35,3 +36,9 @@ def test_range_validation():
     assert validate_range(100) == True
     assert validate_range(2000) == False
     assert validate_range(-2000) == False
+=======
+def test_power():
+    assert power(2, 3) == 8
+    assert power(5, 2) == 25
+    assert power(10, 0) == 0
+>>>>>>> cbc5331 (FEATURE: Add power operation support)
