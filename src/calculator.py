@@ -1,4 +1,5 @@
 """Basic calculator operations."""
+"""This module has functions to add, subtract, multiply, divide, and get the modulo of two input numbers."""
 
 def add(a, b):
     """Add two numbers."""
