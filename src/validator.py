@@ -1,4 +1,5 @@
 """Input validation for calculator."""
+"""Validate functions and a function that checks if a number is positive"""
 
 def validate_number(value):
     """Validate that value can be converted to a number."""
@@ -20,3 +21,6 @@ def validate_range(value, min_val=-1000, max_val=1000):
         return min_val <= num <= max_val
     except (ValueError, TypeError):
         return False
+def is_positive(n):
+    """Check if a number is positive."""
+    return n > 0
