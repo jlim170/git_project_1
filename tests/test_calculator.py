@@ -39,7 +39,7 @@ def test_range_validation():
 def test_power():
     assert power(2, 3) == 8
     assert power(5, 2) == 25
-    assert power(10, 0) == 0
+    assert power(10, 0) == 1
 
 def test_validate_positive():
     assert validate_positive(5) == True
