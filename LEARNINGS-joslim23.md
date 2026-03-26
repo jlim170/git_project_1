@@ -112,3 +112,15 @@ git log --oneline
 git push --force-with-lease
 
 I learned how to clean up the history of my commits by running an interactive rebase by using settings like reword and squash. This matters since now I can make the commits tell a clear story of my work.
+
+## Checkpoint 7
+
+git rebase -i main
+
+git rebase --continue
+
+git log --oneline
+
+git push --force-with-lease
+
+I learned how to respond to a change request for my PR so that my PR can get approved to merge to main.
