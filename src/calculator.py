@@ -1,4 +1,6 @@
 """Basic calculator operations."""
+# checkpoint 4 comment
+import math
 """This module has functions to add, subtract, multiply, divide, and get the modulo of two input numbers."""
 
 def add(a, b):
@@ -19,6 +21,11 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero")
     return a / b
 
+def square_root(a):
+    """Calculate square root of a."""
+    if a < 0:
+        raise ValueError("Cannot calculate square root of negative number")
+    return math.sqrt(a)
 def modulo(a, b):
     """Return remainder of a divided by b."""
     if b == 0:
